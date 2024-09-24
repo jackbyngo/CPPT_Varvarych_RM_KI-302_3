@@ -1,0 +1,12 @@
+Initial energy level: 100
+Dog barking
+Dog's food type: Корм
+Food energy 5
+Dog eating Корм and energy is now 105
+Energy is needed for running 20
+Dog running and energy is now 85
+Dog is sleeping
+Updated food type: Meat with energy: 20
+Food energy 20
+Dog eating Meat and energy is now 105
+Energy level after eat: 105
