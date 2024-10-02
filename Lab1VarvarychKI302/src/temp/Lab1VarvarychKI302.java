@@ -7,6 +7,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 /**
  * Клас Lab1VarvarychKI302 реалізує лабораторну роботу №1
  * */
+//dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 
 public class Lab1VarvarychKI302 {
     /**
