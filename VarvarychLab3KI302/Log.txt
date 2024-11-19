@@ -1,0 +1,7 @@
+Dog barking
+Dog eating meat and energy is now 120
+Dog running and energy is now 105
+Dog is sleeping
+Пес бере участь в експерименті.
+Пес виконує спеціальну дію під час експерименту.
+Експеримент завершено. Результати успішні!

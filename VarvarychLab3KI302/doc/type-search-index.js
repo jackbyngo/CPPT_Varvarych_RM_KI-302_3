@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"KI302Varvarych.Lab3","l":"Dog"},{"p":"KI302Varvarych.Lab3","l":"DogApp"},{"p":"KI302Varvarych.Lab3","l":"Energy"},{"p":"KI302Varvarych.Lab3","l":"Experimentable"},{"p":"KI302Varvarych.Lab3","l":"ExperimentalDog"},{"p":"KI302Varvarych.Lab3","l":"Food"},{"p":"KI302Varvarych.Lab3","l":"Run"}]
