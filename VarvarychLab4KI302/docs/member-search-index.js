@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"KI302Varvarych.Lab4","c":"EquationsApp","l":"EquationsApp()","url":"%3Cinit%3E()"},{"p":"KI302Varvarych.Lab4","c":"EquationsApp","l":"main(String[])","url":"main(java.lang.String[])"}]
