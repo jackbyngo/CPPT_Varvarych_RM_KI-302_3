@@ -1,0 +1,84 @@
+<Window
+    x:Class="lab4.Pages.BusSeatsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Придбання квитків"
+    Width="1100"
+    Height="500"
+    ResizeMode="CanResize"
+    WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <ResourceDictionary Source="../styles.xaml" />
+    </Window.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock
+            FontSize="24"
+            FontWeight="Bold"
+            Grid.Row="0"
+            HorizontalAlignment="Center"
+            Margin="0,20,0,20"
+            Text="Вибір місць в автобусі" />
+
+        <!-- Сітка місць -->
+        <Grid
+            Grid.Row="1"
+            HorizontalAlignment="Center"
+            Margin="0,30,0,0"
+            Name="SeatsGrid"
+            VerticalAlignment="Top">
+            <!-- Сюди можна додати програмну логіку для відображення місць в автобусі -->
+        </Grid>
+
+        <!-- Кнопка для купівлі квитків -->
+        <Button
+            Click="BuyTicketsClick"
+            Content="Купити та оцінити"
+            Grid.Row="2"
+            Height="40"
+            HorizontalAlignment="Center"
+            Margin="0,20,0,0"
+            VerticalAlignment="Bottom"
+            Visibility="Collapsed"
+            Width="400"
+            x:Name="BuyButton" />
+
+        <!-- Панель для введення оцінки -->
+        <StackPanel
+            Grid.Row="3"
+            HorizontalAlignment="Right"
+            Margin="0,20,0,10"
+            Orientation="Horizontal"
+            VerticalAlignment="Bottom">
+            <TextBlock
+                Margin="0,0,10,0"
+                Text="Оцінка:"
+                VerticalAlignment="Center" />
+            
+            <TextBox
+                Height="30"
+                Width="60"
+                x:Name="RatingTextBox"
+                PreviewTextInput="RatingTextBox_PreviewTextInput"
+                TextChanged="RatingTextBox_TextChanged"
+                VerticalAlignment="Center" />
+            
+            <Button
+                Click="CloseClick"
+                Content="Закрити"
+                Height="30"
+                Margin="20,0,0,0"
+                VerticalAlignment="Center"
+                Width="100" />
+        </StackPanel>
+    </Grid>
+</Window>
